@@ -1,0 +1,319 @@
+# projectkosub.github.io
+Para informar sobre la cultura coreana 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOSUB - Menú</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Stylesheet/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Botón colapsable para pantallas pequeñas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <!-- Menú izquierdo -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">K-Drama</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">K-Music</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="kculturaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            K-Cultura
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="kculturaDropdown">
+                            <li><a class="dropdown-item" href="#">Alfabeto Coreano</a></li>
+                            <li><a class="dropdown-item" href="#">Gastronomía</a></li>
+                            <li><a class="dropdown-item" href="#">Festividades</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Logotipo centrado -->
+                <a class="navbar-brand mx-auto" href="">
+                    <img src="./Images/logo.png" alt="KOSUB" width="120">
+                </a>
+
+                <!-- Menú derecho -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">K-Cine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team KOSUB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Comunidad</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <!-- Sección BIENVENIDA -->
+   
+    <section class="container mt-5">
+        <div class="row align-items-center">
+            <!-- Sección de texto BIENVENIDA -->
+            <div class="col-lg-5 text-center text-lg-start">
+                <h1 class="bienvenida-text">BIEN<br>VENI<br>DΑ</h1>
+            </div>
+
+            <!-- Sección de imágenes y texto -->
+            <div class="col-lg-7">
+                <div class="row">
+                    <!-- Imágenes con border-radius -->
+                    <div class="col-6 mb-3">
+                        <img src="Images/imag1.jpg" class="img-fluid rounded-custom" alt="Imagen 1">
+                    </div>
+                    <div class="col-6 mb-3">
+                        <img src="./Images/imag2.jpg" class="img-fluid rounded-custom" alt="Imagen 2">
+                    </div>
+                    <div class="col-6 mb-3">
+                        <img src="./Images/imag3.jpg" class="img-fluid rounded-custom" alt="Imagen 3">
+                    </div>
+                    <div class="col-6 mb-3">
+                        <img src="./Images/imga4.jpg" class="img-fluid rounded-custom" alt="Imagen 4">
+                    </div>
+                </div>
+                <!-- Texto de bienvenida -->
+                <p class="bienvenida-description">
+                    Bienvenidos a KOSUB, tu ventana hacia la rica y fascinante cultura coreana. Aquí encontrarás todo lo que necesitas 
+                    saber sobre música, cine, gastronomía, idioma y más. Descubre la belleza de Corea a través de nuestro sitio web, 
+                    ¡Explora, aprende y comparte con nosotros!
+                </p>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="col-lg-1 d-flex flex-column align-items-start justify-content-center social-icons">
+                <div class="social-icon facebook mb-3">
+                    <a href="#" target="_blank">
+                        <img src="./Images/facebook.png" alt="Facebook">
+                    </a>
+                </div>
+                <div class="social-icon instagram mb-3">
+                    <a href="#" target="_blank">
+                        <img src="./Images/instagram.png" alt="Instagram">
+                    </a>
+                </div>
+                <div class="social-icon tiktok">
+                    <a href="#" target="_blank">
+                        <img src="./Images/tiktok.png" alt="TikTok">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- Sección de Iconos KOSUB -->
+ <section class="iconos-kosub text-center py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <img src="./Images/kpop icon.png" alt="Icono 1" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-2">
+                <img src="./Images/kdrama icon.png" alt="Icono 2" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-2">
+                <img src="./Images/kcine icon.png" alt="Icono 3" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-2">
+                <img src="./Images/kcomunidad icon.png" alt="Icono 4" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-2">
+                <img src="./Images/kcomunidad icon.png" alt="Icono 5" class="img-fluid rounded-circle">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Team KOSUB -->
+<section class="team-kosub text-center py-5 position-relative">
+    <div class="container">
+        <h2 class="text-white">TEAM KOSUB</h2>
+        <div class="row justify-content-center my-4">
+            <div class="col-md-5">
+                <img src="./Images/team kosub 1.jpg" alt="Team Image 1" class="img-fluid rounded-custom">
+            </div>
+            <div class="col-md-5">
+                <img src="./Images/team kosub 2.jpg" alt="Team Image 2" class="img-fluid rounded-custom">
+            </div>
+        </div>
+        <p class="text-white mb-4">
+            KOSUB - Supporters Bolivia, es el primer grupo de voluntarios y pasantes enfocado en jóvenes bolivianos apasionados por 
+            la cultura coreana, promoviendo el intercambio cultural entre Corea y Bolivia mediante la creación de contenido innovador 
+            y actividades que fortalecen el conocimiento y la conexión entre ambos países.
+        </p>
+        <a href="#" class="btn btn-light rounded-pill px-5">Leer más</a>
+    </div>
+
+    <!-- Estrellas decorativas -->
+    <div class="position-absolute star-1"></div>
+    <div class="position-absolute star-2"></div>
+    <div class="position-absolute star-3"></div>
+</section>
+
+<!-- Seccion noticias-destacadas -->
+<section class="noticias-destacadas py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">NOTICIAS DESTACADAS</h2>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-6">
+                <div class="card h-100 border-0 shadow-sm rounded-custom">
+                    <img src="./Images/pequeños guardianes.jpg" class="card-img-top rounded-custom-img" alt="Pequeños Guardianes">
+                    <div class="card-body">
+                        <h5 class="card-title">PEQUEÑOS GUARDIANES</h5>
+                        <p class="card-text">
+                            Apasionados voluntarios que ayudan a fortalecer la cultura coreana en Bolivia. Un esfuerzo conjunto 
+                            para el aprendizaje y la preservación.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-6">
+                <div class="card h-100 border-0 shadow-sm rounded-custom">
+                    <img src="./Images/documental koica.jpg" class="card-img-top rounded-custom-img" alt="Representación en Documental">
+                    <div class="card-body">
+                        <h5 class="card-title">REPRESENTACIÓN EN DOCUMENTAL</h5>
+                        <p class="card-text">
+                            Un documental que muestra la fuerte participación de los jóvenes en la difusión de la cultura coreana en Bolivia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- cultura coreana -->
+<section class="cultura-coreana py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <h2 class="text-center mb-4">CULTURA COREANA</h2>
+                <div class="card p-4 border-0 shadow-sm rounded-custom-blue">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-6">
+                            <img src="./Images/South-Korea-1.jpg" class="img-fluid rounded-custom-img" alt="Cultura Coreana">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    La cultura coreana es rica, diversa y fascinante, con una historia que remonta a miles de años. La influencia de Corea en la moda, música y gastronomía es innegable, con un creciente impacto en todo el mundo. Desde sus templos históricos hasta sus coloridas celebraciones culturales, Corea del Sur ofrece una experiencia única para quienes buscan una mezcla de modernidad y tradición.
+                                </p>
+                                <a href="#" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Secciòn frase de la semana  -->
+<section class="frase-semana py-5">
+    <div class="container-fluid"> <!-- Cambiado a container-fluid para que ocupe todo el ancho -->
+        <div class="square-bg position-relative mx-auto" style="height: 706px; background-color: #FF6F61;">
+            <h2 class="text-center position-absolute top-0 start-50 translate-middle-x mt-3">FRASE DE LA SEMANA</h2>
+            <div class="row g-4 position-absolute top-50 start-50 translate-middle">
+                <!-- Frase 1 -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm border-0 p-4 text-center">
+                        <blockquote class="blockquote">
+                            <p>
+                                “Mucha gente piensa que la violencia en las películas que hago es abrumadora, 
+                                pero piensan que están viendo algo que no estamos viendo.”
+                            </p>
+                            <footer class="blockquote-footer mt-3">Park Chan Wook</footer>
+                        </blockquote>
+                    </div>
+                </div>
+                          <!-- Frase 2 -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-0 p-4 text-center">
+                    <blockquote class="blockquote">
+                        <p>
+                            “Mucha gente piensa que la violencia en las películas que hago es abrumadora, 
+                            pero piensan que están viendo algo que no estamos viendo.”
+                        </p>
+                        <footer class="blockquote-footer mt-3">Park Chan Wook</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Seccion formulario -->
+<section class="contacto py-5" style="background-color: #FF6F61;">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-md-6 text-white">
+                <p>Para obtener más información sobre nuestras actividades, completa el siguiente formulario. Estaremos encantados de ponernos en contacto contigo y ayudarte a explorar todo lo que KOSUB tiene para ofrecer.</p>
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Nombre y Apellido" style="border-radius: 12px;">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Correo Electrónico" style="border-radius: 12px;">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Celular" style="border-radius: 12px;">
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100" style="border-radius: 12px;">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer py-4" style="background-color: #f5f5f5;">
+    <div class="container text-center">
+        <img src="./Images/logo.png" alt="KOSUB" class="mb-3" width="100">
+        <div class="social-icons mb-4">
+            <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="./Images/facebook.png"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#"><i class="fab fa-tiktok fa-lg"></i></a>
+        </div>
+        <div class="footer-links">
+            <a href="" class="me-3">K-Drama</a>
+            <a href="#" class="me-3">K-Music</a>
+            <a href="#" class="me-3">K-Cultura</a>
+            <a href="#" class="me-3">K-Cine</a>
+            <a href="#" class="me-3">Team KOSUB</a>
+            <a href="#">Comunidad</a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+    
+</body>
+</html>
